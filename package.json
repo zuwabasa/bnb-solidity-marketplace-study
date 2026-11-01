@@ -1,0 +1,16 @@
+{
+  "name": "risein-marketplace-study-draft",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local study draft for learner review; no external deployment or submission",
+  "scripts": {
+    "compile": "node scripts/compile.cjs",
+    "test": "node --test --test-concurrency=1 tests/marketplace.test.cjs"
+  },
+  "devDependencies": {
+    "ethers": "6.15.0",
+    "ganache": "7.9.2",
+    "memdown": "6.1.1",
+    "solc": "0.8.30"
+  }
+}
